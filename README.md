@@ -12,7 +12,7 @@
 - [下载epub格式][epub]
 
 [gitbook]: https://dreamfly.gitbooks.io/dreamfly-dependencies/
-[qcloud]: http://docs.dreamfly.io/dreamfly-dependencies/
+[qcloud]: https://docs.dreamfly.io/dreamfly-dependencies/
 [pdf]: https://www.gitbook.com/download/pdf/book/dreamfly/dreamfly-dependencies
 [mobi]: https://www.gitbook.com/download/mobi/book/dreamfly/dreamfly-dependencies
 [epub]: https://www.gitbook.com/download/epub/book/dreamfly/dreamfly-dependencies
