@@ -1,0 +1,36 @@
+{
+  "gitbook": ">=3.2.0",
+  "description": "Dreamfly Dependencies文档",
+  "language": "zh-hans",
+  "author": "Sky Ao",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "DreamFly网站": "https://dreamfly.io",
+        "Dependencies项目": "https://github.com/dreamfly-io/dreamfly-dependencies"
+    }
+  },
+  "structure" : {
+    },
+  "plugins": [
+    "-search",
+    "-sharing",
+    "edit-link",
+    "github-buttons@2.1.0"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://github.com/dreamfly-io/dreamfly-dependencies/edit/docs",
+        "label": "Edit"
+    },
+    "github-buttons": {
+        "repo": "dreamfly-io/dreamfly-dependencies",
+        "types": ["star"],
+        "size": "small"
+    }
+  },
+  "title": "Dreamfly Dependencies文档",
+  "variables": {
+  }
+}
