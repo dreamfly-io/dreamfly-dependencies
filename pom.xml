@@ -57,14 +57,12 @@
         <junit.vintage.version>4.12.3</junit.vintage.version>
         <apiguardian.version>1.0.0</apiguardian.version>
         <mockito.version>2.13.0</mockito.version>
-        <powermock.version>1.7.3</powermock.version>
         <assertj.version>3.9.0</assertj.version>
         <assertj-guava.version>3.1.0</assertj-guava.version>
         <assertj-joda-time.version>2.0.0</assertj-joda-time.version>
         <assertj-db.version>1.2.0</assertj-db.version>
         <h2.version>1.4.196</h2.version>
         <dbunit.version>2.5.4</dbunit.version>
-        <cucumber.version>1.2.5</cucumber.version>
 
         <!-- redis -->
         <jedis.version>2.9.0</jedis.version>
@@ -308,30 +306,6 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.powermock</groupId>
-                <artifactId>powermock-module-junit4</artifactId>
-                <version>${powermock.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.powermock</groupId>
-                <artifactId>powermock-module-junit4-rule-agent</artifactId>
-                <version>${powermock.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>info.cukes</groupId>
-                <artifactId>cucumber-java</artifactId>
-                <version>${cucumber.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>info.cukes</groupId>
-                <artifactId>cucumber-junit</artifactId>
-                <version>${cucumber.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-guava</artifactId>
                 <version>${assertj-guava.version}</version>
@@ -455,7 +429,6 @@
                             </goals>
                             <configuration>
                                 <encoding>UTF-8</encoding>
-                                <aggregate>true</aggregate>
                                 <excludePackageNames>*.protobuf.*</excludePackageNames>
                             </configuration>
                         </execution>
